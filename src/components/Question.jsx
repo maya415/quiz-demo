@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-import "./Question.css";
+import "./assets/Question.css";
 
 const Question = ({
   questionIndex,

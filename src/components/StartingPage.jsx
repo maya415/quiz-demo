@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-import "./StartingPage.css";
+import "./assets/StartingPage.css";
 
 const StartingPage = ({
   setShowStartingPage,

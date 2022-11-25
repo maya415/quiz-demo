@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 
-import './FinalPage.css'
+import './assets/FinalPage.css'
 
 const FinalPage = ({
     score,
