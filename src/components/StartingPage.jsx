@@ -1,7 +1,7 @@
-import React from "react";
-import Card from "./Card";
+import React from 'react';
+import Card from './Card';
 
-import "./assets/StartingPage.css";
+import './assets/StartingPage.css';
 
 const StartingPage = ({
   setShowStartingPage,
@@ -24,11 +24,12 @@ const StartingPage = ({
       <input
         type="text"
         className="username_input"
+        onClick={() => setUsername(username)} //sets user name
         placeholder="username"
         value={username}
         onChange={(event) => setUsername(event.target.value)}
       />
-      
+
       <button className="start_btn" onClick={startGame}>
         let's play
       </button>
